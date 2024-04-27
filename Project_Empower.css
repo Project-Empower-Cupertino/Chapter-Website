@@ -1,0 +1,155 @@
+body {
+    font-family: "Gill Sans", sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa; 
+}
+
+nav a{
+	display: block;
+	padding: 8px;
+	background-color: #457b9d; /*BOX TEXT COLOR CHANGE*/
+}
+
+nav li{
+	float: left;
+}
+
+.logo img{
+	max-width: 120px;
+	max-height: 120px;
+}
+
+header {
+	font-weight: bold;
+    background-color: #fff; 
+    padding: 0px;
+    color: #fff; 
+    display: flex;
+    justify-content: center;
+    align-items: center;	
+}
+
+.active {
+	background-color: #04AA6D;
+}
+
+nav {
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+	flex-grow: 1;
+    justify-content: center; 
+	align-items: center;
+	font-family: "Gill Sans", sans-serif;
+}
+
+nav ul {
+	overflow: hidden;
+	background-color: #457b9d; /* OUTSIDE OF TEXT COLOR CHANGE*/
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+	flex-grow: 1;
+    justify-content: center; 
+	align-items: center;
+	font-family: "Gill Sans", sans-serif;
+}
+
+nav ul li {
+    margin: 0 80px;
+}
+
+nav ul li a {
+	color: #000; 
+    text-decoration: none;
+	align-items: center;
+	transition: color 0.3s;
+	display: flex;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+}
+
+nav ul li a:hover{
+	background-color: #111;
+}
+
+section {
+    padding: 50px 0;
+}
+
+.hero {
+    background-image: url('https://via.placeholder.com/1500x500');
+    background-size: cover;
+    background-position: center;
+    padding: 25px 0;
+    text-align: center;
+    color: #fff;
+}
+
+.hero h1 {
+    font-size: 2rem;
+}
+
+.buttons {
+    margin-top: 20px;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+.about-content {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.text-bubble {
+    background-color: #007bff;
+    color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+footer {
+    bottom: 0;
+    background-color: #007bff;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.animated {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.5s, transform 0.5s;
+}
+
+.animated.show {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.footer-links a {
+    color: #fff; /* White text for footer links */
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
+
